@@ -13,15 +13,16 @@ dependencies:
     - pandas
     - numpy
 
-#    # ML
-#    - scikit-learn==1.1.1
+    # ML
+    - scikit-learn
 #    - lightgbm==3.2.1
 #    - xgboost==1.5.0
 
-#    # Visualization
-#    - scipy==1.7.1
-#    - seaborn==0.11.2
-#    - matplotlib
+    # Visualization
+    - scipy
+    - seaborn
+    - matplotlib
+    - statsmodels
 
     # Misc
 #    - cloudpickle==2.0.0
