@@ -1,5 +1,7 @@
 #  Run this after u add new dependencies
 #  conda env update
+# conda env create -f environment.yml
+# conda install -c apple tensorflow-deps
 
 name: pythonpoc02
 channels:
@@ -7,30 +9,37 @@ channels:
 #  - nodefaults
 dependencies:
   - python=3.10
-  - pip
-  - pip:
-    # Snowpark
-#    - snowflake-snowpark-python[pandas]==0.10.0
-
-    # Basics
-    - pandas
-    - numpy
-
-    # ML
-    - scikit-learn
-#    - lightgbm==3.2.1
-#    - xgboost==1.5.0
-
-    # Visualization
-    - scipy
-    - seaborn
-    - matplotlib
-    - statsmodels
-    - plotly
-
-    # Misc
-#    - cloudpickle==2.0.0
-    - jupyter
-#    - cachetools==4.2.2
-#    - imbalanced-learn
-#    - optuna
+#  - pytorch
+#  - torchvision
+#  - torchaudio
+#  -
+#  - pip
+#  - pip:
+#    # Snowpark
+##    - snowflake-snowpark-python[pandas]==0.10.0
+#
+#    # Basics
+#    - pandas
+##    - numpy
+#
+#    # ML
+#    - scikit-learn
+##    - tensorflow-macos
+##    - tensorflow-metal
+##    - tensorflow
+##    - lightgbm==3.2.1
+##    - xgboost==1.5.0
+#
+#    # Visualization
+#    - scipy
+#    - seaborn
+#    - matplotlib
+#    - statsmodels
+#    - plotly
+#
+#    # Misc
+##    - cloudpickle==2.0.0
+#    - jupyter
+##    - cachetools==4.2.2
+##    - imbalanced-learn
+##    - optuna
